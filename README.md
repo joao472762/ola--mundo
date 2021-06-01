@@ -1,2 +1,2 @@
-# ola--mundo
-primeiro repositório usando git e git hu
+#  Olá Mundo
+primero repositório utlizando Git e  Git- Hub
