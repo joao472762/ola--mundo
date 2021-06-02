@@ -15,7 +15,10 @@ background: linear-gradient(to left, #b463eb, #C53BD9);
 color: white;}
 main{
     max-width: 375px;
-    background: #635bf6de;;
+    background: #ceecff;
+    color: #5D1CD4;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #5c1cd41e;
     margin: 6% 18% 0% 18%;
     border-radius: 12px;
     padding: 2.0em 3.5em;
@@ -38,7 +41,7 @@ header{
     font-size: 1em;
     outline: none;
     text-align: center;
-    width: 280px;
+    width: 250px;
 }
 #nome:hover, #gmail:hover{
     cursor: pointer;
@@ -63,7 +66,7 @@ header{
 
 #texto1{
     margin-bottom: 12px;
-    font-size: 1.1em;
+    font-size: 1.08em;
 }
 #umpouco p{
     margin-bottom: 5px;
@@ -71,6 +74,8 @@ header{
 textarea{
     border-radius: 5px;
     outline: none;
+    padding: 9px;
+    width: 200px;
 }
 #botao{
     padding: 12px;
@@ -80,15 +85,25 @@ textarea{
     margin-top: 5px;
 }
 @media screen and (min-width: 820px){
-    main{margin: 3% 15% 3% 33%;}
-    #desnvolve{margin-left: 5%;}
+    main{margin: 3% 15% 3% 33%;
+    background: #ceecff;}
+    #desnvolve{margin-left: 5%;
+    color: #A720F6;
+    font-weight: 500;}
+
 }
 @media screen and (max-width:600px){
-  main{
+  body{font-size: 0.95em;}
+    main{
       margin: 35px;
   }
   #nome, #gmail{
       width: 170px;
   }
+  textarea{width: 200px;
+    margin-top: 5px;
+    height: 30px;
+    font-size: 1.2em;
+}
 }
     
