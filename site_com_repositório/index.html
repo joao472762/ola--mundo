@@ -32,11 +32,16 @@
 
             <section id="desnvolve">
                 <div id="progamaa">
-                    <p>
-                        <label for="dev">
-                            você desnvolve em <input type="radio" name="dev" id="front-end" checked>Front-End <input type="radio" name="dev" id="back-end">Back-End <input type="radio" name="dev" id="full-stack">Full-Stack
-                        </label>
-                    </p>
+                    <span>Você Desevolve em qual linguagem</span>
+                    <label for="front-end">
+                        <input type="radio" name="dev" id="front-end" checked><span class="espacamento">Front-End</span>
+                    </label>
+                    <label for="back-end">
+                        <input type="radio" name="dev" id="back-end"><span class="espacamento">Back-End</span>
+                    </label>
+                    <label for="full-stack">
+                        <input type="radio" name="dev" id="full-stack"><span class="espacamento">Full-Stack</span>
+                    </label>
                 </div>
             </section>
         </form>
@@ -44,11 +49,12 @@
             <section id="linguagens">
                 <div id="progama">
                     <p id="itens">
+                        <p id="texto1">Quais mais linguagens você conhece :</p>
                         <label for="linguagem">
-                            Quais mais linguagens você<input type="checkbox" name="html" class="linguagem"> HTML5 <input type="checkbox" name="css3" class="linguagem"> CSS3 <input type="checkbox" name="python" class="linguagem"> Python
+                             <input type="checkbox" name="html" class="linguagem"> HTML5 <input type="checkbox" name="css3" class="linguagem"> CSS3 <input type="checkbox" name="python" class="linguagem"> Python
                             <input type="checkbox" name="java" class="linguagem"> Java
                             <input type="checkbox" name="java-script" class="linguagem"> Java Script
-                            <input type="checkbox" name="php" class="linguagens"> Php
+                            <input type="checkbox" name="php" class="linguagens"> PHP
                         </label>
                     </p>
             </section>
@@ -56,11 +62,9 @@
         <footer>
             <div id='umpouco'>
                 <p>Nos conte um pouco sobre você </p>
-                <label for="texto">
-                    <textarea name="texto" id="texto" cols="45" rows="8"></textarea>
-                </label>
+                <textarea name="texto" id="texto" cols="45" rows="4"></textarea>
             </div>
-            <div id="botao">
+            <div id="confirmar">
                 <input type="submit" id="botao" value="enviar">
             </div>
         </footer>
