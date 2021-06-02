@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+*{margin:0;
+padding: 0;
+border: 0;
+}
+body{font-family: 'Poppins',Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+text-align: center;
+max-height: 100vh;
+min-width: 100vw;
+background: linear-gradient(to left, #b463eb, #C53BD9);
+color: white;}
+main{
+    background: #af4ef0bb;
+    margin: 12%;
+    border-radius: 12px;
+    padding: 2.5em;
+    box-shadow: 5px 5px 20px #4c43f84f;
+}
+header{
+    margin-bottom: 1.7em;
+}
+#dados{
+    margin: 1em;
+    text-align: center;
+}
+#nome, #gmail{
+    margin: 0px 0px 12px 0px;
+    border-radius: 8px;
+    padding: 7px;
+    box-shadow: 4px 4px 7px #C53BD9;
+    font-size: 1em;
+    outline: none;
+    text-align: center;
+    width: 200px;
+}
